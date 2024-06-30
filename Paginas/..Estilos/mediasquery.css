@@ -1,0 +1,116 @@
+@charset "UTF-8"; 
+
+@media screen and (min-width: 768px) and (max-width: 992px) {
+
+    header {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+    }
+
+    #headerTitulo {
+        padding: 20px;
+    }
+
+    #itens {
+        display: block;
+    }
+
+    #burguer {
+        display: none;
+    }
+
+    menu > ul > li {
+        display: inline-block;
+    }
+
+    menu > ul > li > a {
+        background-color: transparent;
+        padding: 20px;
+    }
+
+    /* corpo da pagina */
+
+    main {
+        height: 45vh;
+    }
+
+    #hello {
+        align-items: flex-start;
+        width: 78%;
+    }
+
+   #animaText {
+    text-align: left;
+    font-family: monospace;
+    border-right: 4px solid;
+    white-space: nowrap; 
+    width: 9ch;
+    overflow: hidden;
+    animation: animaTexto steps(9) 2s, animaMarcador .5s Linear infinite; 
+}
+
+@keyframes animaMarcador {
+    50% {
+        border-right: transparent;
+    }
+}
+
+@keyframes animaTexto {
+    0% {
+        width:0;
+    }
+}
+    
+
+   #hello > h3 {
+    text-align: left;
+   }
+
+/* about me */ 
+
+
+#infosMe, #foto {
+    height: 100%;
+    width: 50%;
+    flex: 1;
+}
+
+#foto {
+    display: block;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#foto > div {
+    width: 300px;
+    height: 300px;
+    background: url(../../Imagens/e4b2e421-da1a-4973-a269-bc276a0f772d.jpg) center center;
+    background-size: cover;
+    border-radius: 12px;
+    box-shadow: 0px 3px 8px #9e1de499;
+}
+
+/*Skills*/ 
+
+#mainSkills {
+    height: 110vh;
+}
+
+#skills {
+    flex-direction: row; /* Duas colunas lado a lado em telas maiores */
+    flex-wrap: wrap; /* Permite que os itens quebrem para uma nova linha */
+    justify-content: space-around; /* Distribui os itens uniformemente */
+}
+
+.cardsSkills {
+    width: calc(45% - 20px); 
+    height: 30vh ;
+}
+
+.cardsSkills > p {
+    font-size: 1.5em;
+}
+
+}
