@@ -99,9 +99,9 @@
 }
 
 #skills {
-    flex-direction: row; /* Duas colunas lado a lado em telas maiores */
-    flex-wrap: wrap; /* Permite que os itens quebrem para uma nova linha */
-    justify-content: space-around; /* Distribui os itens uniformemente */
+    flex-direction: row; 
+    flex-wrap: wrap; 
+    justify-content: space-around; 
 }
 
 .cardsSkills {
