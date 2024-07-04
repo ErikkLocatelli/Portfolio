@@ -125,6 +125,7 @@ h3 {
     text-decoration: none;
     margin: 10px;   
     color: white; 
+    font-weight: bold;
 }
 
 .botao:hover {
@@ -198,6 +199,10 @@ h3 {
     vertical-align: middle;
     font-size: 1.8em;
     background-color: transparent;
+}
+
+.link-redes i:hover {
+    font-size: 1.7em;
 }
 
 /* Projetos */ 
