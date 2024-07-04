@@ -6,6 +6,7 @@
     <title>Erik Locatelli - Portfólio</title>
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="mediasquery.css">
+    <link rel="stylesheet" href="mediaquerygrande.css">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
 </head>
@@ -17,9 +18,9 @@
         <menu id="itens">
             <ul>
                 <li><a href="#">Sobre mim</a></li>
-                <li><a href="#">Projetos</a></li>
-                <li><a href="#">Habilidades</a></li>
-                <li><a href="#">Home</a></li>
+                <li><a href="#mainProjetos">Projetos</a></li>
+                <li><a href="#mainSkills">Habilidades</a></li>
+                <li><a href="#mainForm">Contato</a></li>
             </ul>
         </menu>
     </header>
@@ -28,7 +29,7 @@
             <h2 id="helloText"><span style="color: #9D1DE4 ;">Olá, eu sou</span></h2>
             <h2 id="animaText">Erik <br>Locatelli</h2>
             <h3>Estudante de engenharia de software</h3>
-            <a href="#" id="botao">Curriculo</a>   
+            <a href="#" class="botao">Curriculo</a>   
         </div>
     </main>
    <main>
@@ -98,12 +99,32 @@
         </div>
     </div>
    </main>
-   <main>
-    <div>
-        
-    </div>
+   <main id="mainForm">
+        <h1 class="aboutTitulo" style="text-align: center;">Contato</h1>           
+                <form>
+                    <div class="divForm"> 
+                    <div class="teste">
+                        <label class="nome">Nome <span style="color: #9D1DE4;">completo</span></label>
+                        <div class="divInput">
+                            <input type="text" placeholder="Exemplo: Maria José">
+                        </div>
+                        <label class="nome">Email</label>
+                        <div class="divInput">
+                            <input type="email" placeholder="exemple@exemple.com">
+                        </div>
+                    </div>
+                    <label class="nome"><span style="color: #9D1DE4;">Escreva</span> Algo</label>
+                    <div class="divInput">
+                        <textarea style="height: 80px;">
+                        </textarea>
+                    </div>
+                    <a href="" class="botao">Enviar</a>
+                </form>
+        </div>
    </main>
-   
+   <footer>
+        <p>Todos os direitos reservados - Erik Locatelli - 2024</p>
+   </footer>
    
    
    
