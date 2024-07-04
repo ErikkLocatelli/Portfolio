@@ -114,4 +114,10 @@
     font-size: 1.5em;
 }
 
+/*Forms*/ 
+
+#mainForm {
+    height: 52vh;
+}
+
 }
