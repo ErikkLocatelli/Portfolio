@@ -79,7 +79,7 @@ menu > ul > li > a:hover {
 /*Home*/ 
 
 main {
-    height: 60vh;
+    height: 100vh;
     width: 100%;
 }
 
@@ -136,6 +136,10 @@ h3 {
 
 
 /* AboutMe */ 
+
+#mainMe {
+    height: 60vh;
+}
 
 #aboutMe {
      margin: auto;
