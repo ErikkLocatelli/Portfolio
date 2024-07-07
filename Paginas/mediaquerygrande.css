@@ -98,7 +98,7 @@
 #foto > div {
     width: 400px;
     height: 400px;
-    background: url(../../Imagens/e4b2e421-da1a-4973-a269-bc276a0f772d.jpg) center center;
+    background: url(unnamed.jpg) center center;
     background-size: cover;
     border-radius: 12px;
     box-shadow: 0px 3px 8px #9e1de499;
@@ -168,7 +168,7 @@
 /*Forms*/ 
 
 #mainForm {
-    height: 69vh;
+    height: 60vh;
 }
 
 } 
